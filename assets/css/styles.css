@@ -148,3 +148,16 @@ code,.mono{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.92em}
   .hero-device{transition:transform .4s ease}
   .hero-device:hover{transform:rotate(0)}
 }
+/* Audit fixes (2026-11-08) */
+:root{--color-focus:var(--color-teal-profundo)}
+@media (prefers-color-scheme:dark){:root{--color-focus:var(--color-teal)}}
+:focus-visible{outline-color:var(--color-focus)}
+.nav a[aria-current="page"]{color:var(--color-text)}
+.site-footer nav a{display:inline-block;padding:6px 0}
+/* Feature list: icon beside heading, no card containers */
+.feature{display:grid;align-content:start;grid-template-columns:28px minmax(0,1fr);column-gap:14px;align-items:baseline;padding-top:20px;border-top:1px solid var(--color-border)}
+.feature .icon{grid-column:1;grid-row:1;width:28px;height:28px;margin:0;background:none;border-radius:0;align-self:center}
+.feature .icon svg{width:24px;height:24px}
+.feature h3{grid-column:2;grid-row:1;margin:0;align-self:center}
+.feature p{grid-column:2;margin:8px 0 0;color:var(--color-text-muted)}
+.grid.cols-2:has(.feature){row-gap:36px;column-gap:48px}
