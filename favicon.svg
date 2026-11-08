@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="t">
+  <title id="t">Favicon Dosenta</title>
+  <g>
+    <path d="M16 24a10 10 0 0 1 20 0v24H16z" fill="#11A8A0"/>
+    <path d="M16 52h20v24a10 10 0 0 1-20 0z" fill="#6FE3C8"/>
+    <path d="M48 21h2a29 29 0 0 1 0 58h-2" fill="none" stroke="#11A8A0" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M54 38c0 0-8 10-8 16a8 8 0 0 0 16 0c0-6-8-16-8-16z" fill="#FF6F61"/>
+  </g>
+</svg>

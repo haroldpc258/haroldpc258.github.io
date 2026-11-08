@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 100" role="img" aria-labelledby="t">
+  <title id="t">Dosenta - negativo (fondos oscuros)</title>
+  <!-- Isotype: colores de marca sin cambios -->
+  <g>
+    <path d="M16 24a10 10 0 0 1 20 0v24H16z" fill="#11A8A0"/>
+    <path d="M16 52h20v24a10 10 0 0 1-20 0z" fill="#6FE3C8"/>
+    <path d="M48 21h2a29 29 0 0 1 0 58h-2" fill="none" stroke="#11A8A0" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M54 38c0 0-8 10-8 16a8 8 0 0 0 16 0c0-6-8-16-8-16z" fill="#FF6F61"/>
+  </g>
+  <!-- Wordmark en blanco para fondos oscuros -->
+  <g transform="translate(118 8)" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="20" cy="50" r="16"/><path d="M36 12v58"/>
+    <circle cx="69" cy="50" r="16"/>
+    <path d="M121.6 36.5A10.5 9 0 1 0 112.5 50a10.5 9 0 1 1-9.1 13.5"/>
+    <path d="M140 50h32a16 16 0 1 0-4.7 11.3"/>
+    <path d="M189 30v40M189 48a14 14 0 0 1 28 0v22"/>
+    <path d="M238 16v44a10 10 0 0 0 10 10h4M229 32h22"/>
+    <circle cx="281" cy="50" r="16"/><path d="M297 30v40"/>
+  </g>
+</svg>
